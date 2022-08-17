@@ -5,7 +5,7 @@ import ContainerAbove from './containers/Container-above/ContainerAbove'
 function App () {
   return (
     <div className="App">
-      <div className="container-main">
+      <div className="container-fluid container-main">
       <ContainerAbove />
       </div>
     </div>

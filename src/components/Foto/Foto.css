@@ -1,0 +1,19 @@
+.img-profile {
+    width:320px;
+    height:300px;
+   border-radius: 50%;
+   
+   border: 2px black solid;
+}
+.container-profile-image {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width:30%;
+    margin-left: 10px;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: yellow
+}
