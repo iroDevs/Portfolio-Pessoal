@@ -1,6 +1,16 @@
 .container-above {
-    width: 100%;
     background-color: red;
     margin: 0;
     padding: 0;
+    display: flex;
+    
+    flex-wrap: wrap;
+}
+
+.container-info{
+    margin-left: 5%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
