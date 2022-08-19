@@ -22,3 +22,11 @@
    text-decoration: none;
     color:black;
 }
+
+@media (max-width: 1216px){
+    .hide-mobile  {
+      display: none;
+    }
+
+
+}

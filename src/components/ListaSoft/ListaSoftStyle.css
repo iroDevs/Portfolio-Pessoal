@@ -2,9 +2,9 @@
     display: flex;
 }
 
-.container-tec-list {
+.container-Soft-list {
     margin-top: 10%;
-    background-color: rgb(218, 218, 218);
+    background-color: goldenrod;
     display: flex;
     width: 50%;
     height: 150px;
@@ -14,30 +14,25 @@
     
 }
 
-.title-tec{
+.title-Soft{
     font-weight: 900;
     font-size: 15pt;
     text-align: center;
 }
 
-.list-icons{
+.list-SoftSkills{
     list-style-type: none;
 }
-.img-icons {
-    width:35px;
-    height:35px;
-    margin-left:5px;
-    border-radius:50%;
+
+.list-SoftSkills li{
+    font-size:15pt;
+    font-weight: 900;
 }
 
 @media (max-width: 1216px){
-    
-    .container-tec-list {
-        width:auto;
-        height: 100px;
-        padding-right:20px;
-        flex-wrap: wrap;
-        
+  
+    .container-Soft-list {
+        display: none;  
     }
 
 }

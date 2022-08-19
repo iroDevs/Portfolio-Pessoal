@@ -12,8 +12,8 @@ export default function Contatos () {
   return (
     <>
     <div className="list-contatos">
-        <li onClick={copiaTexto}>Pedro Henrique Loures Oliveira</li>
-        <li onClick={copiaTexto}><AiOutlineMail />pedrohenriquelouresoliveira@gmail.com</li>
+        <li className="hide-mobile" onClick={copiaTexto}>Pedro Henrique Loures Oliveira</li>
+        <li className="hide-mobile" onClick={copiaTexto}><AiOutlineMail />pedrohenriquelouresoliveira@gmail.com</li>
         <a target="_blank" href="https://wa.me/5532999359393" rel="noreferrer"><li><AiOutlineWhatsApp />(32) 9 99359393</li></a>
         <a target="_blank" href="https://www.linkedin.com/in/pedro-2001/" rel="noreferrer"> <li><AiFillLinkedin />Linkedin </li></a>
         <a target="_blank" href="https://github.com/iroDevs" rel="noreferrer"> <li><AiFillGithub />gitHub </li></a>
