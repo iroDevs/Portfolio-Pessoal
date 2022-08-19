@@ -1,0 +1,38 @@
+.list-icons {
+    display: flex;
+}
+
+.container-Soft-list {
+    margin-top: 10%;
+    background-color: goldenrod;
+    display: flex;
+    width: 50%;
+    height: 150px;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+.title-Soft{
+    font-weight: 900;
+    font-size: 15pt;
+    text-align: center;
+}
+
+.list-SoftSkills{
+    list-style-type: none;
+}
+
+.list-SoftSkills li{
+    font-size:15pt;
+    font-weight: 900;
+}
+
+@media (max-width: 1216px){
+  
+    .container-Soft-list {
+        display: none;  
+    }
+
+}
