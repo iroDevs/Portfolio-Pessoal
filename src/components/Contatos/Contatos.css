@@ -18,7 +18,7 @@
     text-decoration:solid;
     cursor:pointer;
 }
-.list-contatos li a {
-   
+.list-contatos a {
+   text-decoration: none;
     color:black;
 }
