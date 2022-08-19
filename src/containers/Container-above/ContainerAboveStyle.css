@@ -14,3 +14,7 @@
     flex-direction: column;
     flex-wrap: wrap;
 }
+
+.container-profile {
+    background-color: rgb(214, 12, 214);
+}

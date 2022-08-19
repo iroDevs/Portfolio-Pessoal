@@ -1,0 +1,30 @@
+.list-icons {
+    display: flex;
+}
+
+.container-tec-list {
+    margin-top: 10%;
+    background-color: goldenrod;
+    display: flex;
+    width: 50%;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+.title-tec{
+    font-weight: 900;
+    font-size: 15pt;
+    text-align: center;
+}
+
+.list-icons{
+    list-style-type: none;
+}
+.img-icons {
+    width:35px;
+    height:35px;
+    margin-left:5px;
+    border-radius:50%;
+}
