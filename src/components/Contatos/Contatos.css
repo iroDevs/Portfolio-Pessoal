@@ -1,26 +1,26 @@
 .list-contatos {
     list-style: none;
     display:flex;
-    background-color:green;
+ 
 
 }
 
 .list-contatos li {
     padding:10px;  
-    border:1px solid black
+    border:1px solid rgb(255, 255, 255)
 }
 
 .list-contatos li:hover {
     padding:10px;  
-    border:1px solid rgb(255, 255, 255);
-    background-color:rgb(0, 73, 22);
+    border:1px solid rgb(0, 131, 0);
+    background-color: black;
     color:white;
     text-decoration:solid;
     cursor:pointer;
 }
 .list-contatos a {
    text-decoration: none;
-    color:black;
+    color:rgb(255, 255, 255);
 }
 
 @media (max-width: 1216px){

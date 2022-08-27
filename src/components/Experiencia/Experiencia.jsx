@@ -4,13 +4,9 @@ import React from 'react'
 
 import './ExperienciaStyle.css'
 export default function Experiencia ({ titulo, texto, tecnologia, tempo }) {
-  const styleCard = {
-    width: '100%',
-    height: '100%'
-  }
   return (
     <div className="container-exp">
-   <div className="card" style={styleCard}>
+   <div className="card" >
   <div className="card-body">
     <h5 className="card-title">{titulo}</h5>
     <h6 className="card-subtitle mb-2 text-muted">{tempo}</h6>

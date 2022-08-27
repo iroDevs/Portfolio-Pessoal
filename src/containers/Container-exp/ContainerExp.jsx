@@ -22,7 +22,8 @@ export default function ContainerExp () {
     {
       titulo: 'If',
       texto: TextoIF,
-      tecnologia: ['html', 'PHP', 'CSS']
+      tecnologia: ['html', 'PHP', 'CSS'],
+      tempo: '3 anos'
     }
   ]
   return (

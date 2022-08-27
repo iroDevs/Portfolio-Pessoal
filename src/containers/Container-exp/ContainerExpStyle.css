@@ -2,19 +2,16 @@
     display: flex;
     margin:10px;
     font-size: 12.5pt;
-    font-weight: 500
-}
-
-.Container-exp ul {
-    text-align: center;
-    list-style: none;
+    font-weight: 500;
+    justify-content:center;
+    align-items:center
 }
 
 @media (max-width: 1216px){
     .Container-exp {
       display: flex;
       flex-direction: column;
-      text-align: center;
+      text-align: justify;
       margin-top:20px
     }
 

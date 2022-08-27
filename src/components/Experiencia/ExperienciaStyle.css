@@ -1,0 +1,24 @@
+.list-exp {
+
+    
+}
+
+.card {
+    width: 100%;
+    height: 50vh;
+}
+
+
+@media (max-width: 1216px){
+
+    .list-exp {
+        align-items: flex-start;
+        position: relative;
+       
+    
+    }
+    .card {
+        height:100%;
+    }
+
+}

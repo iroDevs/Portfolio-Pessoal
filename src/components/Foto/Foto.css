@@ -16,26 +16,29 @@
     padding-top: 10px;
     justify-content: center;
     align-items: center;
-    background-color: yellow
+   
 }  
 
 @media (max-width: 1216px) {
     
+
+
     .hide-desktop{
         display:block;
         font-style: italic;
-        font-weight: bold;
+        font-weight: 400;
+        font-size: 20pt;
 
     }
     .container-profile-image {
-        
+        margin-left: 0px;
         margin-bottom: 10px;
         width: auto;
     }  
 
     .img-profile {
-        width:150px;
-        height:150px;
+        width:250px;
+        height:250px;
        border-radius: 50%;
        border: 2px black solid;
        margin: 10px
