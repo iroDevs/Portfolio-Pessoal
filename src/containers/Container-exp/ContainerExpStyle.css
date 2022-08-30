@@ -1,0 +1,25 @@
+.Container-exp{
+    display: flex;
+    margin:10px;
+    font-size: 12.5pt;
+    font-weight: 500;
+    justify-content:center;
+    align-items:center
+}
+
+
+@media (max-width: 1216px){
+    .Container-exp {
+      display: flex;
+      flex-direction: column;
+      text-align: justify;
+      margin-top:20px
+    }
+
+    .Container-exp div {
+        font-size:15pt;
+        margin-top:20px
+      }
+
+
+}
