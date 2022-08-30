@@ -3,6 +3,7 @@ import './App.css'
 import ContainerAbove from './containers/Container-above/ContainerAbove'
 import ContainerExp from './containers/Container-exp/ContainerExp'
 import ZapButton from './components/ZapButton/ZapButton'
+import StyleButton from './components/outros/StyleButton'
 
 function App () {
   return (
@@ -12,6 +13,7 @@ function App () {
       <ContainerExp />
       </div>
     <ZapButton />
+    <StyleButton />
     </div>
   )
 }
