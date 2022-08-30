@@ -1,0 +1,15 @@
+.bt-style {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:12px;
+    right:90px;
+    border-radius:50%;
+}
+
+.bt-style:hover {
+ scale:1.2;
+ border: 1px solid white;
+ cursor:pointer;
+}
+

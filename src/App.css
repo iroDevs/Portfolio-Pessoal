@@ -12,10 +12,10 @@
  }
 
  body {
-   background: linear-gradient(45deg,rgb(0, 61, 0),rgb(18, 5, 138));
-   background-size: 700% 700%;
-   animation: colors 6s ease infinite
-}
+    
+    background-color: rgb(24, 23, 23);
+ }
+
 
 @keyframes colors {
    0%{
@@ -31,5 +31,9 @@
        background-position:0% 50%
    }
 }
-
+@media (max-width: 1216px) {
+    .App {
+        height: 2500px;
+     }
+}
 
