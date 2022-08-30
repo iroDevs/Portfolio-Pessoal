@@ -1,5 +1,5 @@
 
-const TextoPampa = 'Aqui na pampa eu tive a oportunidade de trabalhar dando manutenção a plataformas que contam com impressão de nota fiscal e pagamentos online,com 6 meses consegui sozinho consertar todos os documentos fiscais que não estavam funcionando como MDFE, NFE, NF. Consertando elementos também de Front-end como menus, pude causar uma boa impressão e evoluir tecnicamente'
+const TextoPampa = 'Aqui na pampa eu tive a oportunidade de trabalhar dando manutenção a plataformas que contam com impressão de nota fiscal e pagamentos online, com 6 meses consegui consertar todos os documentos fiscais que não estavam funcionando como MDFE, NFE, NF . Tive a oportunidade de ajudar a construir uma api em AspNet, '
 
 const TextoIF = 'No if tive a oportunidade de fazer um projeto voluntario de criar uma galeria web de filmes sobre tecnologia, o intuito era fazer propagando e gerar interesse pelo curso de informática do campus, o projeto foi um sucesso e o número de inscrições no ano seguinte foi maior que no ano anterior'
 

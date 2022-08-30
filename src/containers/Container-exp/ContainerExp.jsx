@@ -9,7 +9,7 @@ export default function ContainerExp () {
     {
       titulo: 'Pampa Devs',
       texto: TextoPampa,
-      tecnologia: ['JavaScript', 'PHP', 'Laravel', 'html', 'css'],
+      tecnologia: ['JavaScript', 'PHP', 'Laravel', 'AspNet', 'C#'],
       tempo: '6 meses'
 
     },
