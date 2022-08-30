@@ -1,6 +1,6 @@
 const claro =
 {
-  backgroundColor: '#f5b351',
+  backgroundColor: '#55c3d9',
   color: 'black'
 }
 
