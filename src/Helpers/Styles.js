@@ -1,20 +1,30 @@
 const claro =
 {
-  backgroundColor: '#55c3d9',
-  color: 'black'
+  backgroundColor: '#edf5f7',
+  color: 'black',
+  card: {
+    backgroundColor: '#55b6d9'
+  }
 }
 
 const escuro =
 {
   backgroundColor: '#18191a',
-  color: '#ffffff'
+  color: '#ffffff',
+  card: {
+    backgroundColor: '#323436'
+  }
 }
 
 const colorido =
 {
-  background: 'linear-gradient(45deg,rgb(0, 0, 0),rgb(18, 5, 138))',
+  background: 'linear-gradient(45deg,#136cba,green)',
   backgroundSize: '700% 700%',
-  animation: 'colors 6s ease infinite'
+  color: 'black',
+  animation: 'colors 6s ease infinite',
+  card: {
+    background: 'linear-gradient(45deg,#2c42bf,green)'
+  }
 }
 
 const estilos = [escuro, claro, colorido]
