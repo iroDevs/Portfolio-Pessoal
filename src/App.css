@@ -11,6 +11,9 @@
     margin: 0 ;
  }
  .container-buttons{
+    display: flex;
+    flex-direction: row;
+    
     position:fixed;
     bottom:12px;
     right:90px;
