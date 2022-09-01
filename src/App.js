@@ -9,6 +9,7 @@ import Context from './context/Context'
 import Estilos from './Helpers/Styles'
 import React, { useContext, useState } from 'react'
 import GitButton from './components/GitHubButton/GitHubButton'
+import LinkedinButton from './components/LinkedinButton/LinkedinButton'
 
 function App () {
   const { modo } = useContext(Context)
@@ -19,8 +20,9 @@ function App () {
     }
     return ''
   }
+  const anima = AnimationOnOrOff()
   return (
-    <div className={AnimationOnOrOff()} style={Estilos[modo]}>
+    <div className={`App ${anima}`} style={Estilos[modo]}>
       <div className="container-fluid container-main">
       <ContainerAbove />
       <ContainerExp />
@@ -29,6 +31,7 @@ function App () {
       <ZapButton />
       <StyleButton />
       <GitButton />
+      <LinkedinButton />
     </div>
 
     </div>

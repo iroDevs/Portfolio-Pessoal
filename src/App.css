@@ -13,16 +13,17 @@
  .container-buttons{
     display: flex;
     flex-direction: row;
-    
     position:fixed;
-    bottom:12px;
-    right:90px;
-    background-color:red;
+    bottom:10px;
+    left:50%;
+    transform: translate(-50%,0%);
+    background-color:rgba(0, 0, 0, 0.164)(255, 255, 255);
  }
 
  body {
     
-    background-color: rgb(24, 23, 23);
+    
+
  }
  
  .anim {
@@ -46,7 +47,7 @@
 }
 @media (max-width: 1216px) {
     .App {
-        height: 2500px;
+        height: 2300px;
      }
 }
 
