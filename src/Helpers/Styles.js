@@ -16,17 +16,6 @@ const escuro =
   }
 }
 
-const colorido =
-{
-  background: 'linear-gradient(45deg,#136cba,green)',
-  backgroundSize: '700% 700%',
-  color: 'black',
-  animation: 'colors 6s ease infinite',
-  card: {
-    background: 'linear-gradient(45deg,#2c42bf,green)'
-  }
-}
-
-const estilos = [escuro, claro, colorido]
+const estilos = [escuro, claro]
 
 export default estilos

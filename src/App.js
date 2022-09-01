@@ -7,22 +7,23 @@ import ZapButton from './components/ZapButton/ZapButton'
 import StyleButton from './components/StyleButton/StyleButton'
 import Context from './context/Context'
 import Estilos from './Helpers/Styles'
-import React, { useContext, useState } from 'react'
+import React, { useContext, useEffect } from 'react'
 import GitButton from './components/GitHubButton/GitHubButton'
 import LinkedinButton from './components/LinkedinButton/LinkedinButton'
 
 function App () {
   const { modo } = useContext(Context)
 
-  function AnimationOnOrOff () {
-    if (modo === 2) {
-      return 'anim'
-    }
-    return ''
+  function MudaCorBody () {
+    const body = document.querySelector('body')
+    body.style.backgroundColor = Estilos[modo].backgroundColor
   }
-  const anima = AnimationOnOrOff()
+  useEffect(() => {
+    MudaCorBody()
+  }, [])
+
   return (
-    <div className={`App ${anima}`} style={Estilos[modo]}>
+    <div className='App' style={Estilos[modo]}>
       <div className="container-fluid container-main">
       <ContainerAbove />
       <ContainerExp />

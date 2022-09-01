@@ -20,34 +20,16 @@
     background-color:rgba(0, 0, 0, 0.164)(255, 255, 255);
  }
 
- body {
-    
-    
-
+ .container-space {
+    display: none;
  }
  
- .anim {
-  animation: colors 6s ease infinite;
-  background-size: 300% 300% 
- }
 
-@keyframes colors {
-   0%{
-    
-       background-position: 0% 50%;
-   }
 
-   50% {
-       background-position: 100% 50%
-   }
 
-   100%{
-       background-position:0% 50%
-   }
-}
 @media (max-width: 1216px) {
-    .App {
-        height: 2300px;
-     }
+  .App {
+   height: 2100px;
+  }
 }
 
