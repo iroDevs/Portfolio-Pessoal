@@ -19,21 +19,36 @@ Meu nome é Pedro Henrique Loures Oliveira, sou WebDeveloper com experiência pr
 
 ## Ensino
  <ul>
- <li>Instituto Federal de ciência e tecnologia Rio Pomba: Informática</li>
- <li>Nuclemig Técnico em manutenção de redes, computadores e aparelhos moveis</li>
- <li>Curso em video: Introdução a JavaScript</li> 
- <li>Danki code: Desenvolvimento de games</li>
- <li>Trybe: Desenvolvimento Web</li>
+<li>Instituto Federal de ciência e tecnologia Rio Pomba: Informática</li>
+<li>Nuclemig Técnico em manutenção de redes, computadores e aparelhos moveis</li>
+<li>Curso em video: Introdução a JavaScript</li> 
+<li>Danki code: Desenvolvimento de games</li>
+<li>Trybe: Desenvolvimento Web</li>
 </ul>
 
-## Experiencia
+<hr>
+
+## Conhecimento
+<ul>
+ <li>JavaScript
+<li>PHP 
+ <li>SQL
+ <li>NOSQL
+ <li>MongoDB
+ <li>Docker
+ <li>Node
+ <li>React
+ </ul> 
+<hr>
+ 
+ ## Experiencia
 
  Aqui vou  listar minhas experiências profissionais na Pampa Devs e Sost com os Projetos da Trybe simulando necessidades do mercado
 
  <ul>
- <li>Pampa Devs: C# , Aspnet 6 meses</li>
- <li>Sost: PHP, Laravel,SQL,NF-PHP/speed </li>
- <li>Trybe: mais de 50 projetos com Node, React, JavaScript</li>
+<li>Pampa Devs: C# , Aspnet 6 meses</li>
+<li>Sost: PHP, Laravel,SQL,NF-PHP/speed </li>
+<li>Trybe: mais de 50 projetos com Node, React, JavaScript</li>
  </ul> 
 
 
