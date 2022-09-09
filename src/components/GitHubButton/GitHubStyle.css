@@ -1,10 +1,19 @@
-.bt-whatsApp {
-    
+
+
+.bt-git:hover {
+ scale:1.2;
+ border: 1px solid white;
+ cursor:pointer;
+ color: white;
+}
+
+.bt-git {
+    margin-left: 10px;
     width:60px;
     height:60px;
     bottom:10px;
-    right:10px;
-    background-color:#25d366;
+    right:100px;
+    background-color:#0d0e0d;
     color:#FFF;
     border-radius:50px;
     text-align:center;
@@ -12,13 +21,6 @@
     box-shadow: 1px 1px 2px #888;
     z-index:1000
 }
-
-.bt-whatsApp:hover {
-    scale:1.2;
-    border: 1px solid white;
-    cursor:pointer;
-    color: white;
-   }
 
 .zapButtonIcon {
     margin-top:16px
