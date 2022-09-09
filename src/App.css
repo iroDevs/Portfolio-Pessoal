@@ -10,30 +10,26 @@
     padding: 0;
     margin: 0 ;
  }
-
- body {
-    
-    background-color: rgb(24, 23, 23);
+ .container-buttons{
+    display: flex;
+    flex-direction: row;
+    position:fixed;
+    bottom:10px;
+    left:50%;
+    transform: translate(-50%,0%);
+    background-color:rgba(0, 0, 0, 0.164)(255, 255, 255);
  }
 
+ .container-space {
+    display: none;
+ }
+ 
 
-@keyframes colors {
-   0%{
-    
-       background-position: 0% 50%;
-   }
 
-   50% {
-       background-position: 100% 50%
-   }
 
-   100%{
-       background-position:0% 50%
-   }
-}
 @media (max-width: 1216px) {
-    .App {
-        height: 2500px;
-     }
+  .App {
+   height: 2100px;
+  }
 }
 

@@ -1,22 +1,21 @@
 const claro =
 {
-  backgroundColor: '#55c3d9',
-  color: 'black'
+  backgroundColor: '#edf5f7',
+  color: 'black',
+  card: {
+    backgroundColor: '#55b6d9'
+  }
 }
 
 const escuro =
 {
   backgroundColor: '#18191a',
-  color: '#ffffff'
+  color: '#ffffff',
+  card: {
+    backgroundColor: '#323436'
+  }
 }
 
-const colorido =
-{
-  background: 'linear-gradient(45deg,rgb(0, 0, 0),rgb(18, 5, 138))',
-  backgroundSize: '700% 700%',
-  animation: 'colors 6s ease infinite'
-}
-
-const estilos = [escuro, claro, colorido]
+const estilos = [escuro, claro]
 
 export default estilos
