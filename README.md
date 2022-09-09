@@ -9,13 +9,13 @@ Todo o site de apresentação foi feito resumindo tudo que pude para que possa s
 Meu nome é Pedro Henrique Loures Oliveira, sou WebDeveloper com experiência profissional, tenho 21 anos, sou "nerd" desde novo com muito orgulho e espero que possamos nos conhecer melhor, meu sonho é se tornar um desenvolvedor sênior e conseguir trazer evolução digital para o comércio da minha pequena cidade, minha casa em hogwarts é a Soserina e meu pokemon inicial é o chamander :)
 
 ## Informações
-
-Cidade: Piraúba-MG 
-CEP: 36170000
-telefone: (32) 9 99359393
-Linguás: inglês, português, espanhol
-Experiencia: 1 ano (6 meses profissional)
-
+<ul>
+<li>Cidade: Piraúba-MG 
+<li>CEP: 36170000
+<li>telefone: (32) 9 99359393
+<li>Linguás: inglês, português, espanhol
+<li>Experiencia: 1 ano (6 meses profissional)
+<ul>
 
 ## Ensino
  <ul>
