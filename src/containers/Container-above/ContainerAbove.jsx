@@ -8,14 +8,13 @@ export default function ContainerAbove () {
   return (
     <div className="container-fluid container-above">
 
-        <Foto />
-        <div className=" container-info">
-        <Contatos />
         <div className=" container-profile">
+        <Foto />
         <ListaTec />
         <ListaSoft />
+        <Contatos />
         </div>
-        </div>
+
     </div>
   )
 }

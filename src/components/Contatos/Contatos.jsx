@@ -1,19 +1,18 @@
 import React from 'react'
 import './Contatos.css'
-import { AiOutlineMail } from 'react-icons/ai'
-import copy from 'copy-to-clipboard'
 
 export default function Contatos () {
-  function copiaTexto ({ target: { innerText } }) {
-    console.log(innerText)
-    copy(innerText)
-    alert('copiado para clipboard')
-  }
   return (
     <>
-    <div className="list-contatos">
-        <li className="hide-mobile" onClick={copiaTexto}>Pedro Henrique Loures Oliveira</li>
-        <li className="hide-mobile" onClick={copiaTexto}><AiOutlineMail />pedrohenriquelouresoliveira@gmail.com</li>
+    <div className="list-Informacoes hide-mobile">
+       <span className="display-3  title-info"> Informações</span>
+        <ul className="list">
+        <li><span className="lead">Nome: </span>Pedro Henrique Loures Oliveira</li>
+        <li><span className="lead">Idade: </span>21 anos</li>
+        <li><span className="lead">Ensino: </span>Intituto Federal Rio Pomba , Trybe</li>
+        <li><span className="lead">Lingua: </span>English(intermediario) pela EBI </li>
+        <li><span className="lead">Cidade: </span>Piraúba-MG cep:36170000</li>
+        </ul>
 
     </div>
 

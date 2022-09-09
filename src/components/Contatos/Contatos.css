@@ -1,29 +1,9 @@
-.list-contatos {
-    list-style: none;
-    display:flex;
-    justify-content:center;
- 
+
+.list-Informacoes
+{
+    width: 100%;
 
 }
-
-.list-contatos li {
-    padding:10px;  
-    border:1px solid rgb(255, 255, 255)
-}
-
-.list-contatos li:hover {
-    padding:10px;  
-    border:1px solid rgb(0, 131, 0);
-    background-color: black;
-    color:white;
-    text-decoration:solid;
-    cursor:pointer;
-}
-.list-contatos a {
-   text-decoration: none;
-    
-}
-
 @media (max-width: 1216px){
     .hide-mobile  {
       display: none;
