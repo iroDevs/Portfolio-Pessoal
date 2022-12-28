@@ -47,9 +47,12 @@ Meu nome é Pedro Henrique Loures Oliveira, sou WebDeveloper com experiência pr
 
  <ul>
 <li>Pampa Devs: C# , Aspnet 6 meses</li>
+<li>Contato Seguro: PHP , Sql , Reactjs , 3 meses</li>
 <li>Sost: PHP, Laravel,SQL,NF-PHP/speed </li>
 <li>Trybe: mais de 50 projetos com Node, React, JavaScript</li>
  </ul> 
+ 
+  
 
 
 
